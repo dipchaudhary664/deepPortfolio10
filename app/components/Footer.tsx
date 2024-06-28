@@ -14,7 +14,7 @@ export default function Footer() {
     <Box as="footer" bg="gray.800" color="white" py="6">
       <Flex direction="column" align="center">
         <Text mb="4" fontSize="lg">
-          Say Hello
+          Say Hello <span>+66 0988731603 </span>
         </Text>
 
         <HStack mb={4}>

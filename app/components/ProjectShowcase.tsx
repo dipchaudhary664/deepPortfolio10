@@ -6,28 +6,30 @@ import {
   Text,
   Heading,
   useBreakpointValue,
+  HStack,
 } from "@chakra-ui/react";
 
 const projects = [
   {
-    title:
-      "High-end, custom residential renovators serving Fraser Valley homeowners.",
+    title: "ToDo App.",
     url: "https://todos-aaz94plwg-dipchaudhary664s-projects.vercel.app/",
     coverImg: "/todos.png",
   },
   {
-    title:
-      "High-end, custom residential renovators serving Fraser Valley homeowners.",
-    url: "https://todos-aaz94plwg-dipchaudhary664s-projects.vercel.app/",
-    coverImg: "/todos.png",
+    title: "Netflix 2.0.",
+    url: "https://netflix-fronted-view.vercel.app/",
+    coverImg: "/netflix.png",
   },
   {
-    title:
-      "High-end, custom residential renovators serving Fraser Valley homeowners.",
+    title: "Covid 19",
     url: "https://todos-aaz94plwg-dipchaudhary664s-projects.vercel.app/",
-    coverImg: "/todos.png",
+    coverImg: "/covid.png",
   },
-  // Add more projects as needed
+  {
+    title: "Spotify 2.0",
+    url: "https://spotifydeep-9dvzoa8ri-dipchaudhary664s-projects.vercel.app/",
+    coverImg: "/spotify.png",
+  },
 ];
 
 const ProjectShowcase = () => {
@@ -78,30 +80,28 @@ const ProjectShowcase = () => {
               boxShadow: "md",
             }}
           >
-            <Text
-              fontSize="sm"
-              fontWeight="normal"
-              letterSpacing="wide"
-              color="gray.100"
-              textAlign="center"
-              textDecoration="none"
-              pt="20px"
-              zIndex={1}
-            >
-              {project.title}
-            </Text>
-            <Button
-              variant="outline"
-              colorScheme="blue"
-              size="md"
-              position="absolute"
-              bottom={4}
-              left="50%"
-              transform="translateX(-50%)"
-              onClick={() => openLinkInNewTab(project.url)}
-            >
-              View Project
-            </Button>
+            <HStack position="absolute" gap={5} bottom={4} zIndex={1}>
+              <Box background="#667BC6" p={2} rounded={5}>
+                <Text
+                  fontSize="md"
+                  fontWeight="normal"
+                  letterSpacing="wide"
+                  color="purple"
+                  textAlign="center"
+                  textDecoration="none"
+                >
+                  {project.title}
+                </Text>
+              </Box>
+              <Button
+                variant="outline"
+                colorScheme="blue"
+                size="md"
+                onClick={() => openLinkInNewTab(project.url)}
+              >
+                View Project
+              </Button>
+            </HStack>
           </Box>
         ))}
       </SimpleGrid>

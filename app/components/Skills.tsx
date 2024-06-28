@@ -2,6 +2,8 @@ import { Box, Heading, Flex, Image, Grid, Text, Card } from "@chakra-ui/react";
 
 const mySkills = {
   frontend: [
+    { name: "HTML", image: "/html.png" },
+    { name: "CSS", image: "/css.png" },
     { name: "JavaScript", image: "/javascript.png" },
     { name: "Next.js", image: "/nextjs.png" },
     { name: "React-Native", image: "/reactnative.png" },
@@ -36,7 +38,7 @@ export default function Skills() {
         <Grid
           templateColumns={{
             base: "repeat(2, 1fr)",
-            md: "repeat(3, 1fr)",
+            md: "repeat(4, 1fr)",
           }}
         >
           {mySkills.frontend.map((skill, index) => (

@@ -71,8 +71,9 @@ export default function Portfolio() {
             Full Name: Dip Narayan Chaudhary <br />
             Nickname: Deep <br />
             From: Nepal <br />
-            Current Country: Thailand (B) <br />
-            Address: Fai Kaeo Phu Phiang District, Nan 55000
+            Current Country: Thailand (Bangkok) <br />
+            Address: Fai Kaeo Phu Phiang District, <br />
+             Nan 55000
           </Text>
         </Box>
         <Spacer />

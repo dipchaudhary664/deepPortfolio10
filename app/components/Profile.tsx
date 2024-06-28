@@ -32,7 +32,7 @@ export default function Profile() {
       </Text>
       <Image
         mt={10}
-        src="/dip.jpg"
+        src="/coding.gif"
         alt="Profile Image"
         borderRadius="full"
         width="250px"
