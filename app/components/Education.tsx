@@ -94,7 +94,7 @@ export default function Portfolio() {
             <TimelineItem
               icon={FaGraduationCap}
               title="Final Project"
-              subtitle="Nepali Language Learning Application, Using  React-Native"
+              subtitle="Nepali Language Learning Application, Using  React-Native,  React Navigation, CSS and Firebase (Database)."
               date={""}
               subtitle001={""}
             ></TimelineItem>

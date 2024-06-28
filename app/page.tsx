@@ -5,6 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
+import ProjectShowcase from "./components/ProjectShowcase";
 export default function Home() {
   return (
     <ChakraProvider>
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Skills />
       <Education />
+      <ProjectShowcase />
       <Footer />
     </ChakraProvider>
   );

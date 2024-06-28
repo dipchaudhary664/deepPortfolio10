@@ -32,13 +32,12 @@ export default function Skills() {
           boxShadow="2xl"
         />
       </Flex>
-      <Flex mx="auto" justifyContent="center" alignItems="center">
+      <Flex justifyContent="center" alignItems="center">
         <Grid
           templateColumns={{
-            base: "100%",
+            base: "repeat(2, 1fr)",
             md: "repeat(3, 1fr)",
           }}
-          gap={4}
         >
           {mySkills.frontend.map((skill, index) => (
             <Box key={index} textAlign="center" m={4}>
@@ -46,8 +45,8 @@ export default function Skills() {
                 <Image
                   src={skill.image}
                   alt={skill.name}
-                  h="100px"
-                  w="100px"
+                  h={{ base: "80px", md: "100px", lg: "100px" }}
+                  w={{ base: "80px", md: "100px", lg: "100px" }}
                   objectFit="cover"
                   mx="auto"
                 />

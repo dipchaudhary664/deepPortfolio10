@@ -67,7 +67,7 @@ export default function Footer() {
           </Box>
         </HStack>
         <Divider />
-        <Text mt="4">© 2024 Your Website</Text>
+        <Text mt="4">© 2024 Chaudhary Dip</Text>
       </Flex>
     </Box>
   );
