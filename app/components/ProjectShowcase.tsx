@@ -22,7 +22,7 @@ const projects = [
   },
   {
     title: "Covid 19",
-    url: "https://todos-aaz94plwg-dipchaudhary664s-projects.vercel.app/",
+    url: "https://covid19-lfr4f1yb2-dipchaudhary664s-projects.vercel.app/",
     coverImg: "/covid.png",
   },
   {
@@ -45,7 +45,7 @@ const ProjectShowcase = () => {
         My Recent Work
       </Heading>
       <Text fontSize="md" mb={2} textAlign="center">
-        Here are a few past design projects I've worked on.
+        Here are a few past design projects I &apos ve worked on.
       </Text>
       <Text fontSize="md" mb={5} textAlign="center">
         Websites and WebApps
